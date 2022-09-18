@@ -14,7 +14,7 @@ header {
     background-color: rgb(46, 94, 139);
     padding: 1em;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     border-radius: 5px;
     z-index: 15;
@@ -25,7 +25,7 @@ header {
     grid-column: 1 ;  
    }
 .home-title{
-     grid-column: 2; 
+     grid-column: 2 3; 
    }
 
 h1 {
@@ -36,7 +36,6 @@ h1 {
 
 main {
     width: 97%;
-    height: calc(100% - 5em - 6em - 4em + 5px);
     margin: 2em 0 2em auto;
     position: relative;
 }
@@ -48,7 +47,6 @@ h2 {
 ul {
     margin: 0;
     padding-top: 10px;
-    width: calc(100% - 40px);
     height: 94%;
     overflow-y: auto;
 }
