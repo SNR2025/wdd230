@@ -11,26 +11,29 @@ body {
     background-color: white;
 }
 header {
+    background-color: rgb(46, 94, 139);
     padding: 1em;
     display: grid;
-    position: relative;
-    background-color: rgb(46, 94, 139);
-    grid-template-columns: auto auto;
-    grid-template-rows: 5em;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     border-radius: 5px;
     z-index: 15;
+    box-shadow: 1px 1px 10px black;
 }
+
+.photo{
+    grid-column: 1 ;  
+   }
+.home-title{
+     grid-column: 2; 
+   }
+
 h1 {
     font-size: 40px;
     color: white;
     align-self: center;
 }
-header > img {
-    width: 100%;
-    box-shadow: 1px 1px 10px black;
-    border-radius: 5px;
-}
+
 main {
     width: 97%;
     height: calc(100% - 5em - 6em - 4em + 5px);
@@ -66,4 +69,5 @@ footer {
     border-radius: 5px;
     text-align: center;
     z-index: 10;
+    box-shadow: 1px 1px 10px black;
 }
