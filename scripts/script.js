@@ -1,10 +1,12 @@
 function year() {
-    let d = new Date();
-    let b = d.getFullYear();
-    document.getElementById("currentyear").innerHTML = b;
+    let day = new Date();
+    let year = day.getFullYear();
+    document.getElementById("currentyear").innerHTML = year;
+    console.log(year)
 }
 
 function lastUpdated() {
     let a = document.lastModified;
     document.getElementById("lastmodified").innerHTML = a;
+    console.log(a)
 }

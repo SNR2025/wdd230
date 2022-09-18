@@ -15,7 +15,7 @@ header {
     display: grid;
     position: relative;
     background-color: rgb(46, 94, 139);
-    grid-template-columns: auto 20%;
+    grid-template-columns: auto auto;
     grid-template-rows: 5em;
     justify-items: center;
     border-radius: 5px;
@@ -53,26 +53,17 @@ ul li {
     padding-bottom: 5px;
 }
 a {
-    color: seagreen;
+    color: blue;
 }
 a:active {
-    color: tomato;
+    color: blueviolet;
 }
 footer {
-    background-color: seagreen;
+    background-color: rgb(46, 94, 139);
     position: relative;
     color: white;
     padding: 0.75em;
     border-radius: 5px;
     text-align: center;
     z-index: 10;
-}
-footer a {
-    color: white;
-    text-decoration: underline lightblue;
-    transition: color 0.5s, text-shadow 0.5s;
-}
-footer a:hover {
-    color: rgb(46, 94, 139);
-    text-shadow: 1px 1px 10px lightblue;
 }
