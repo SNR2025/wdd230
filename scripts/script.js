@@ -1,3 +1,8 @@
+function Functions(){
+    lastUpdated(); 
+    year(); 
+}
+
 function year() {
     let day = new Date();
     let year = day.getFullYear();
