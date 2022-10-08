@@ -12,20 +12,18 @@ header {
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    justify-items: center; 
     border-radius: 5px;
     z-index: 15;
     box-shadow: 1px 1px 10px black;
 }
 
-img {
+.photo img {
     max-width: 100%;
     display: block;
   }
 
 .photo{
     grid-column: 1;  
-    justify-items: center;
    }
 .home-title{
      grid-column: 2/3; 

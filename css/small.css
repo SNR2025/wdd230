@@ -1,9 +1,4 @@
-@media screen and (max-width: 550px) { 
-
-    img {
-        max-width: 60%;
-        display: block;
-    }
+@media screen and (max-width: 550px) {
    
     header, .home-title, .photo {
     display: block;

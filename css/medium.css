@@ -1,16 +1,15 @@
 @media only screen and (min-width: 32.5em) { 
     h1 {
-            font-size: 60px;
-            color: white;
-            align-self: left;
-            text-align: left;
+            font-size: 70px;
         }
 
     h2 {
         font-size: 40px;
     }
+    .photo {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
 
-    img {
-        max-width: 100%;
-      }
 } 
