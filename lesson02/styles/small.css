@@ -1,0 +1,61 @@
+* { 
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: rgb(46, 94, 139);
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+h3 { 
+    margin: 0;
+    background: rgb(46, 94, 139);
+    color: white;
+    padding: 0.5em;
+}
+section {
+    border-radius: 10px 10px 0px 0px;
+    border: solid 1px gray;
+    overflow: hidden;
+}
+
+section  div {
+    padding: 0 10px;
+}
+section img {
+    
+    display: block;
+    border: solid 1px gray;
+    max-width: 400px;
+    width: calc(100%);
+}
+a {
+    color: blue;
+}
+a:active {
+    color: blueviolet;
+}
+footer {
+    background-color: rgb(46, 94, 139);
+    color: white;
+    padding: 0.75em;
+    text-align: center;
+    z-index: 10;
+}
+
+@media only screen and (max-width: 500px){
+
+    main {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    main  section {
+        grid-column: 1;
+        width: 90%;
+        max-width: 450px;
+        justify-self: center;
+    }
+}
+
+    
