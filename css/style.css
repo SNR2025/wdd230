@@ -3,7 +3,7 @@
 }
 
 body {
-    max-width: 90%;
+    max-width: 990px;
     margin: 0 auto;
     background-color: white;
 }
@@ -12,18 +12,26 @@ header {
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    justify-items: center; 
     border-radius: 5px;
-    z-index: 15;
+    z-index: 10;
     box-shadow: 1px 1px 10px black;
+    
 }
+
+.photo img {
+    max-width: 100%;
+    display: block;
+  }
 
 .photo{
     grid-column: 1;  
-    justify-items: center;
    }
 .home-title{
-     grid-column: 2/3; 
+    grid-column: 2/3;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+     
    }
 
 h1 {
@@ -31,6 +39,7 @@ h1 {
     color: white;
     align-self: center;
     text-align: left;
+     
 }
 
 main {
@@ -38,6 +47,7 @@ main {
     margin: 2em 0 2em auto;
 }
 h2 {
+    font-size: 30px;
     border-bottom: solid 1px #cccccc;
     margin-bottom: 0;
     width: 95%;
@@ -66,10 +76,3 @@ footer {
     z-index: 10;
     box-shadow: 1px 1px 10px black;
 }
-@media screen and (max-width: 550px) { 
-   
-    header, .home-title, .photo {
-    display: block;
-    }
-  
-} 
