@@ -7,8 +7,7 @@ button.addEventListener('click', function(){
     if (input.value.length === 0){    
     }
     else{
-        let chapter = input.value;
-
+        let chapter = input.value;  
         const listItem = document.createElement("li");
         const listText = document.createElement("span");
         const listBtn = document.createElement("button");
@@ -17,7 +16,7 @@ button.addEventListener('click', function(){
         listText.textContent = chapter;
         listItem.appendChild(listBtn);
         listBtn.textContent = "❌";
-
+        listBtn.ariaLabel = "Delete Chapter";
         list.appendChild(listItem);
         input.value = "";
 
